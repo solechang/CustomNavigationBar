@@ -31,6 +31,8 @@
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     
+//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    
 //    self.homeeVC = [[ViewController alloc] init];

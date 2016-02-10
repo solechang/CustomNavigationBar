@@ -28,6 +28,9 @@
         [backButton setBackgroundColor:[UIColor redColor]];
         [backButton addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:backButton];
+        
+       
+        
 //       [[UINavigationBar appearance] setBarTintColor:[UIColor blueColor]];
        //        [navBarTitle setBackgroundColor:[UIColor blueColor]];
 
@@ -74,8 +77,6 @@
 }
 
 - (void) setStatusBarColor {
-    
-    NSLog(@"2.) ");
     
     UIApplication *app = [UIApplication sharedApplication];
 

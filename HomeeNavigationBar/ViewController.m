@@ -19,12 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor grayColor]]; // The  status bar should not be gray
+    
+    
 
 }
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
+//
+//-(UIStatusBarStyle)preferredStatusBarStyle {
+//    return UIStatusBarStyleLightContent; // your own style
+//}
 
 
 - (void)didReceiveMemoryWarning {
